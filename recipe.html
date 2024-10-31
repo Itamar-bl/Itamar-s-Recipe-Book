@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="recipeName"></h1>
+    </header>
+    <main>
+        <div id="recipeDetails">
+            <!-- JavaScript will populate this section -->
+        </div>
+        <p style="text-align: center;">
+        <div id="comments">
+            <!-- JavaScript will populate this section -->
+        </div>
+        </p>
+        <form id="addCommentForm">
+            <label for="comment">Add Comment:</label>
+            <textarea id="comment" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <script src="add_comment.js"></script>
+    <script src="recipe.js"></script>
+</body>
+</html>

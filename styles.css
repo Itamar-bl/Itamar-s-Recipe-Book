@@ -1,0 +1,187 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('backgroundRecipeBook01.jpg');
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.recipe-list {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-list h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.recipe-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recipe-list li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recipe-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.recipe-list a:hover {
+    color: #666;
+}
+
+.recipe-list li span:hover {
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+form {
+    width: 60%; /* Set width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+    margin-top: 20px; /* Add some top margin */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #303030;
+}
+
+button[type="submit"]:hover {
+    background-color: #4b4b4b;
+}
+
+#recipeDetails {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#recipeDetails img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#recipeDetails h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#recipeDetails ul {
+    list-style: none;
+    padding: 0;
+}
+
+#recipeDetails ul li {
+    margin-bottom: 5px;
+}
+
+#comments {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#comments h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#addCommentForm {
+    margin-bottom: 20px; /* Add space between form and comment list */
+}
+
+#commentList {
+    padding-top: 20px; /* Add space between comment form and list */
+}
+
+#comments div {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#comments div:last-child {
+    margin-bottom: 0;
+}
+
+.comment-delete {
+    margin-left: 10px;
+    background-color: #303030;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 10px;
+}
